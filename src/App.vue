@@ -99,10 +99,5 @@ export default {
       { icon: 'mdi-calendar-clock', text: 'Календарь', route: '/calendar' }
     ],
   }),
-  methods: {
-    toPortfolio() {
-      this.$router.push('/portfolio');
-    }
-  },
 }
 </script>
